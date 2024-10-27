@@ -131,6 +131,7 @@ button:focus{
 .header__menu__item{
   display: block;
   padding : 8px 16px;
+  border-bottom : 1px solid transparent
 }
 
 .header__menu__item:hover{
@@ -315,6 +316,12 @@ button:focus{
   grid-template-rows : repeat(2, 1fr);
   grid-template-columns: repeat(4,1fr);
   gap : 1rem;
+  transition: all 200ms ease-out;
+}
+
+.projects.anima-out{
+  opacity: 0;
+  transform: scale(0.95) translateY(20px);
 }
 
 .project {

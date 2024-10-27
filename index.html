@@ -22,7 +22,8 @@
     <!-- CSS -->
     <link rel="stylesheet" href="css/style.css">
     <!-- JS -->
-    <script src="src/main.js" defer></script>
+    <script type="module" src = "src/main.js" defer></script>
+    <script type="module" src = "src/projects.js" defer></script>
 </head>
 <body>
     <!-- Header -->
@@ -145,29 +146,29 @@
                 <p class = "description">Projects</p>
                 <ul class = "categories">
                     <li>
-                        <button class="category category--selected">
+                        <button class="category category--selected" data-category = "all">
                             All <span class = "category__count">8</span>
                         </button>
                     </li>
                     <li>
-                        <button class="category">
+                        <button class="category" data-category = "React">
                             React <span class = "category__count">4</span>
                         </button>
                     </li>
                     <li>
-                        <button class="category">
-                            Next.js <span class = "category__count">2</span>
+                        <button class="category" data-category = "Next">
+                            Next.js <span class = "category__count">3</span>
                         </button>
                     </li>
                     <li>
-                        <button class="category">
-                            javascript <span class = "category__count">2</span>
+                        <button class="category" data-category = "javascript">
+                            javascript <span class = "category__count">1</span>
                         </button>
                     </li>
                 </ul>
                 <!-- project github link -->
                 <ul class = "projects">
-                    <li class = "project">
+                    <li class = "project" data-type = "React">
                         <a href="#" target = "_blank">
                             <img src = "" alt = "" class = "project__image">
                             <div class = "project__metadata">
@@ -176,7 +177,7 @@
                             </div>
                         </a>
                     </li>
-                    <li class = "project">
+                    <li class = "project" data-type = "React">
                         <a href="#" target = "_blank">
                             <img src = "" alt = "" class = "project__image">
                             <div class = "project__metadata">
@@ -185,7 +186,7 @@
                             </div>
                         </a>
                     </li>
-                    <li class = "project">
+                    <li class = "project" data-type = "Next">
                         <a href="#" target = "_blank">
                             <img src = "" alt = "" class = "project__image">
                             <div class = "project__metadata">
@@ -194,7 +195,7 @@
                             </div>
                         </a>
                     </li>
-                    <li class = "project">
+                    <li class = "project" data-type = "React">
                         <a href="#" target = "_blank">
                             <img src = "" alt = "" class = "project__image">
                             <div class = "project__metadata">
@@ -203,7 +204,7 @@
                             </div>
                         </a>
                     </li>
-                    <li class = "project">
+                    <li class = "project" data-type = "Next">
                         <a href="#" target = "_blank">
                             <img src = "" alt = "" class = "project__image">
                             <div class = "project__metadata">
@@ -212,7 +213,7 @@
                             </div>
                         </a>
                     </li>
-                    <li class = "project">
+                    <li class = "project" data-type = "javascript">
                         <a href="#" target = "_blank">
                             <img src = "" alt = "" class = "project__image">
                             <div class = "project__metadata">
@@ -221,7 +222,7 @@
                             </div>
                         </a>
                     </li>
-                    <li class = "project">
+                    <li class = "project" data-type = "React">
                         <a href="#" target = "_blank">
                             <img src = "" alt = "" class = "project__image">
                             <div class = "project__metadata">
@@ -230,7 +231,7 @@
                             </div>
                         </a>
                     </li>
-                    <li class = "project">
+                    <li class = "project" data-type = "Next">
                         <a href="#" target = "_blank">
                             <img src = "" alt = "" class = "project__image">
                             <div class = "project__metadata">

@@ -1,3 +1,5 @@
+'use strict'
+
 // Header 스크롤 시 투명 -> 다크
 
 const header = document.querySelector('.header');
