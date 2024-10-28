@@ -15,6 +15,10 @@
   --size-max-width : 1200px;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   box-sizing: border-box;
   font-size: 1.2rem;
